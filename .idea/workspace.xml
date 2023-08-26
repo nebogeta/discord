@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38ae4bfb-4904-4ee0-948d-29119c205280" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(auth)/(routes)/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/(routes)/sign-up/[[...sign-up]]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(invite)/(routes)/invite/[inviteCode]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(main)/(routes)/servers/[serverId]/channels/[channelId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(main)/(routes)/servers/[serverId]/conversations/[memberId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(main)/(routes)/servers/[serverId]/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(main)/(routes)/servers/[serverId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(main)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(setup)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/channels/[channelId]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/channels/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/direct-messages/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/livekit/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/members/[memberId]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/messages/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/servers/[serverId]/invite-code/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/servers/[serverId]/leave/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/servers/[serverId]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/servers/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/uploadthing/core.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/uploadthing/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/action-tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/chat-header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/chat-input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/chat-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/chat-messages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/chat-video-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/chat/chat-welcome.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/emoji-picker.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/file-upload.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/media-room.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/mobile-toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/create-channel-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/create-server-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/delete-channel-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/delete-message-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/delete-server-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/edit-channel-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/edit-server-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/initial-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/invite-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/leave-server-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/members-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/message-file-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-action.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/server/server-channel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/server/server-header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/server/server-member.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/server/server-search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/server/server-section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/server/server-sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/socket-indicator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/theme-toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/user-avatar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-chat-query.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-chat-scroll.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-chat-socket.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-modal-store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-origin.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/conversation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/current-profile-pages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/current-profile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/db.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/initial-profile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/uploadthing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/socket/direct-messages/[directMessageId].ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/socket/direct-messages/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/socket/io.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/socket/messages/[messageId].ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/providers/modal-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/providers/query-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/providers/socket-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/providers/theme-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2UVS2iNyizTuVfBYCTefWXsiiCc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Udemy-React/discord",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\nebog\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\231.9011.35\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Udemy-React\discord\app\(main)\(routes)" />
+      <recent name="C:\Udemy-React\discord\app\(main)" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38ae4bfb-4904-4ee0-948d-29119c205280" name="Changes" comment="" />
+      <created>1693023049791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693023049791</updated>
+      <workItem from="1693023050915" duration="10245000" />
+      <workItem from="1693069267039" duration="5426000" />
+      <workItem from="1693074751694" duration="7219000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
